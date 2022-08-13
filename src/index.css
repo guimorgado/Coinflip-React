@@ -1,3 +1,65 @@
-h1 {
-	color: red;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.radio-label-heads {
+	height: 50px;
+	width: 160px;
+	background-color: #9ed2c6;
+	color: white;
+	font-weight: 500;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 18px;
+}
+
+.radio-label-tails {
+	height: 50px;
+	width: 160px;
+	background-color: #9ed2c6;
+	color: white;
+	font-weight: 500;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 18px;
+}
+
+.radio-label-heads input {
+	display: none;
+}
+
+.radio-label-tails input {
+	display: none;
+}
+
+.radio-label-heads input:checked + p {
+	height: 50px;
+	width: 160px;
+	background-color: #9ed2c6;
+	color: white;
+	font-weight: 500;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 18px;
+	border: 2px solid #365951;
+}
+
+.radio-label-tails input:checked + p {
+	height: 50px;
+	width: 160px;
+	background-color: #9ed2c6;
+	color: white;
+	font-weight: 500;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 18px;
+	border: 2px solid #365951;
 }
